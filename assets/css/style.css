@@ -380,3 +380,39 @@ a {
 }
 
 /*-- features-section end --*/
+/*-- Footer-section start --*/
+.footer-section {
+  background: #EEE;
+  padding-top: 44px;
+}
+.footer-content {
+  max-width: 1024px;
+  margin: 0px auto;
+}
+.footer-content-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0px -12px;
+}
+.footer-content-inner .footer-col {
+  padding: 0px 12px;
+  width: 20%;
+}
+.footer-content-inner .footer-col h6 {
+  color: #333;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.26px;
+}
+.footer-content-inner .footer-col a, .footer-content-inner .footer-col p {
+  color: #333;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.13px;
+}
+
+/*-- Footer-section End --*/
