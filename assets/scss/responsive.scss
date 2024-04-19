@@ -62,14 +62,14 @@
         width: 50%;
     }
     .custom-container{
-        padding: 0px 50px;
+        padding: 0px 57px;
     }
     .content-banner-section{
         padding-bottom: 40px;
         .content-detail{
             left: 50px;
             .content-btns {
-                button{
+                .btn{
                     font-size: 18px;
                     padding: 10px 15px;
                 }
@@ -354,7 +354,7 @@
             .content-btns{
                 width: 100%;
                 justify-content: space-between;
-                button{
+                .btn{
                     width: 48%;
                 }
             }

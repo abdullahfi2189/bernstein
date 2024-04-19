@@ -216,7 +216,7 @@ a{
             justify-content: flex-start;
             flex-wrap: wrap;
             gap: 6px;
-            button{
+            .btn{
                 border-radius: 30px;
                 background: #333;
                 color:#FFF;
@@ -229,13 +229,16 @@ a{
                 border: none;
                 outline: none;
                 transition: 0.4s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 &:hover{
                     background: #F2AE14;
                     color: #333;
                 }
             }
             &.der{
-                button{
+                .btn{
                     color: #F2AE14;
                     &:hover{
                         background: #F7F5F4;
@@ -396,7 +399,7 @@ a{
     }
     &-content{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: flex-start;
         flex-wrap: wrap;
         margin: 0px auto;

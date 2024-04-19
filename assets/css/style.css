@@ -215,7 +215,7 @@ a {
   flex-wrap: wrap;
   gap: 6px;
 }
-.content-banner-section .content-detail .content-btns button {
+.content-banner-section .content-detail .content-btns .btn {
   border-radius: 30px;
   background: #333;
   color: #FFF;
@@ -228,15 +228,18 @@ a {
   border: none;
   outline: none;
   transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.content-banner-section .content-detail .content-btns button:hover {
+.content-banner-section .content-detail .content-btns .btn:hover {
   background: #F2AE14;
   color: #333;
 }
-.content-banner-section .content-detail .content-btns.der button {
+.content-banner-section .content-detail .content-btns.der .btn {
   color: #F2AE14;
 }
-.content-banner-section .content-detail .content-btns.der button:hover {
+.content-banner-section .content-detail .content-btns.der .btn:hover {
   background: #F7F5F4;
   color: #333;
 }
@@ -388,7 +391,7 @@ a {
 }
 .contact-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
   margin: 0px auto;

@@ -52,7 +52,7 @@
     width: 50%;
   }
   .custom-container {
-    padding: 0px 50px;
+    padding: 0px 57px;
   }
   .content-banner-section {
     padding-bottom: 40px;
@@ -60,7 +60,7 @@
   .content-banner-section .content-detail {
     left: 50px;
   }
-  .content-banner-section .content-detail .content-btns button {
+  .content-banner-section .content-detail .content-btns .btn {
     font-size: 18px;
     padding: 10px 15px;
   }
@@ -299,7 +299,7 @@
     width: 100%;
     justify-content: space-between;
   }
-  .content-banner-section .content-detail .content-btns button {
+  .content-banner-section .content-detail .content-btns .btn {
     width: 48%;
   }
 }
