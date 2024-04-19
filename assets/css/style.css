@@ -227,9 +227,18 @@ a {
   padding: 5px 15px;
   border: none;
   outline: none;
+  transition: 0.4s;
+}
+.content-banner-section .content-detail .content-btns button:hover {
+  background: #F2AE14;
+  color: #333;
 }
 .content-banner-section .content-detail .content-btns.der button {
   color: #F2AE14;
+}
+.content-banner-section .content-detail .content-btns.der button:hover {
+  background: #F7F5F4;
+  color: #333;
 }
 .content-banner-section.esd {
   background: #F7F5F4;

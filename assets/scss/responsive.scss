@@ -35,7 +35,7 @@
     }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1024px) {
     .header-center{
         display: none;
     }
@@ -207,7 +207,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .header{
         &-inner{
             gap: 0px;
