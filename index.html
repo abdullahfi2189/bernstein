@@ -20,6 +20,7 @@
             <div class="custom-container">
                 <div class="header-inner">
                     <div class="header-left">
+                        <button class="mobile-menu-open"><img src="./assets/images/icons/menu-icon.svg" alt="icon"></button>
                         <a href="index.html" class="logo"><img src="./assets/images/logo/logo.svg" alt="logo"></a>
                     </div>
                     <div class="header-center">
@@ -37,6 +38,22 @@
                             <li><a href="#"><img src="./assets/images/icons/notification.svg" alt="icon"> <span>3</span></a></li>
                             <li><a href="#"><img src="./assets/images/icons/glob.svg" alt="icon"></a></li>
                         </ul>
+                    </div>
+                    <div class="mobile-menu">
+                        <div class="mobile-menu-inner">
+                            <div class="mobile-menu-header">
+                                <a href="#" class="logo"><img src="./assets/images/logo/logo.svg" alt="logo"></a>
+                                <button class="mobile-menu-close"><img src="./assets/images/icons/menu-close.svg" alt="icon"></button>
+                            </div>
+                            <div class="mobile-menu-body">
+                                <ul>
+                                    <li><a href="#">WERKZEUGE</a></li>
+                                    <li><a href="#">BRANCHEN</a></li>
+                                    <li><a href="#">Unternehmen</a></li>
+                                    <li><a href="#">SERVICE</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -167,8 +184,10 @@
                     </div>
                     <div class="contact-col">
                         <p>Unsere Experten sind per Telefon oder E-Mail für Sie da.</p>
-                        <a href="#"><img src="./assets/images/icons/tel.svg" alt="icon">+49 2191/96500</a>
-                        <a href="#"><img src="./assets/images/icons/envelop.svg" alt="icon">Kontakt</a>
+                        <div class="links">
+                            <a href="#"><img src="./assets/images/icons/tel.svg" alt="icon">+49 2191/96500</a>
+                            <a href="#"><img src="./assets/images/icons/envelop.svg" alt="icon">Kontakt</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -177,7 +196,7 @@
 
         <!-- features section start -->
         <section class="features-section">
-            <div class="custom-contaioner">
+            <div class="custom-container">
                 <div class="features-content">
                     <ul>
                         <li>
@@ -320,6 +339,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <!-- custom js -->
     <script src="./assets/js/main.js"></script>
+
+    <script>
+        // Get references to the menu elements
+        const menuOpenButton = document.querySelector('.mobile-menu-open');
+        const menuCloseButton = document.querySelector('.mobile-menu-close');
+        const mobileMenu = document.querySelector('.mobile-menu');
+    
+        // Add event listener to open the mobile menu
+        menuOpenButton.addEventListener('click', function() {
+            mobileMenu.classList.add('active');
+        });
+    
+        // Add event listener to close the mobile menu
+        menuCloseButton.addEventListener('click', function() {
+            mobileMenu.classList.remove('active');
+        });
+    </script>
 </body>
 
 </html>

@@ -11,6 +11,17 @@
              arrows: true,
              fade: false,
              autoplaySpeed: 3000,
+             responsive: [
+                {
+                  breakpoint: 991,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true,
+                  }
+                },
+              ]
          });
      }
     

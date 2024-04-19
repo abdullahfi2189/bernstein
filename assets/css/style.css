@@ -58,6 +58,15 @@ a {
 .header-left {
   width: 20%;
 }
+.header-left .mobile-menu-open {
+  display: none;
+  height: 32px;
+  width: 32px;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0px;
+}
 .header-center {
   width: 60%;
 }
@@ -112,6 +121,60 @@ a {
   border-radius: 50%;
   position: absolute;
   top: -3px;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  z-index: 9999;
+  transform: translateX(-375px);
+  transition: 0.3s;
+}
+.mobile-menu.active {
+  transform: translateX(0px);
+}
+.mobile-menu-inner {
+  height: 100vh;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 44px 24px;
+}
+.mobile-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-menu-header button {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0px;
+}
+.mobile-menu-body {
+  padding-top: 70px;
+}
+.mobile-menu-body ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 22px 0px;
+  border-bottom: 1px solid #E6E6E6;
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+  position: relative;
+}
+.mobile-menu-body ul li a::after {
+  content: url(../images/icons/bottom-arrow.svg);
+  position: absolute;
+  right: 0px;
+  top: 23px;
 }
 
 /*-- header style end --*/
