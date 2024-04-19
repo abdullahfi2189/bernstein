@@ -17,6 +17,13 @@
   .content-banner-section.handwerkzeuge p {
     top: 25%;
   }
+  .content-banner-section.hfha {
+    background: url(../images/bg/ha-bg-tab.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 679px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .header-center {
@@ -55,7 +62,7 @@
   }
   .content-banner-section .content-detail .content-btns button {
     font-size: 18px;
-    padding: 8px 15px;
+    padding: 10px 15px;
   }
   .content-banner-section.der p {
     bottom: 40%;
@@ -167,5 +174,119 @@
   .collections-slider .slick-dots li.slick-active button:before {
     background: #F2AE14;
     opacity: 1;
+  }
+  .content-banner-section.hfha {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49.78%, #000 83.91%), url(../images/bg/ha-bg-tab.png) lightgray 50%/cover no-repeat;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header-inner {
+    gap: 0px;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    width: 58%;
+  }
+  .header-right {
+    width: 32%;
+  }
+  .content-banner-section {
+    padding-bottom: 80px;
+  }
+  .content-banner-section p {
+    font-size: 10px;
+  }
+  .custom-container {
+    padding: 0px 20px;
+  }
+  .custom-container .content-detail {
+    left: 20px;
+  }
+  .custom-container .content-detail h3 {
+    font-size: 20px;
+  }
+  .collections-section {
+    padding-bottom: 0px;
+  }
+  .collections-section .slide-text h4 {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  .collections-section .slide-text p {
+    font-size: 16px;
+  }
+  .collections-slider .slick-dots {
+    gap: 6px;
+  }
+  .collections-slider .slick-dots li {
+    width: 32px;
+  }
+  .collections-slider .slick-dots li button:before {
+    height: 4px;
+    width: 32px;
+  }
+  .contact-col h4 {
+    font-size: 24px;
+  }
+  .contact-col p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .contact-col .links {
+    margin-top: 10px;
+  }
+  .contact-col .links a {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .contact-col .links a img {
+    min-width: 11px;
+    max-width: 11px;
+  }
+  .features-content ul li .icon {
+    min-width: 18px;
+    width: 18px;
+  }
+  .features-content ul li .text h5 {
+    font-size: 16px;
+  }
+  .features-content ul li .text p {
+    font-size: 14px;
+  }
+  .footer-content-inner .footer-col {
+    margin-top: 30px;
+  }
+  .footer-content-inner .footer-col h6 {
+    font-size: 16px;
+  }
+  .footer-content-inner .footer-col p {
+    font-size: 14px;
+  }
+  .footer-content-inner .footer-col a {
+    font-size: 14px;
+  }
+  .footer-content-inner .footer-col .footer-social h6 {
+    font-size: 14px;
+  }
+  .footer-bottom-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    row-gap: 8px;
+    padding-top: 130px;
+  }
+  .footer-bottom-content .center {
+    top: 30px;
+  }
+  .content-banner-section.hfha {
+    height: 100vw;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .collections-slider .slick-dots {
+    bottom: 38%;
   }
 }
