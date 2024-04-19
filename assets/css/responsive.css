@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1440px) {
+  .content-banner-section.der .tools-img {
+    margin-left: -30%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .content-banner-section.der .tools-img {
+    margin-left: -36%;
+  }
+}

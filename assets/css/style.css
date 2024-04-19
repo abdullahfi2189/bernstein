@@ -17,6 +17,10 @@ body {
   background: #FFFFFF;
 }
 
+.body-container {
+  overflow-x: hidden;
+}
+
 ul {
   list-style: none;
   padding: 0px;
@@ -49,6 +53,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 50px;
 }
 .header-left {
   width: 20%;
@@ -119,12 +124,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-.content-banner-section .tools-images .tools-img {
-  margin-left: -25%;
-}
-.content-banner-section .tools-images .tools-img:nth-child(1) {
-  margin-left: 0px;
-}
 .content-banner-section .content-detail {
   position: absolute;
   bottom: 0px;
@@ -181,6 +180,10 @@ a {
 .content-banner-section.der .tools-img {
   max-width: 640px;
   width: 100%;
+  margin-left: -20%;
+}
+.content-banner-section.der .tools-img:nth-child(1) {
+  margin-left: 0px;
 }
 .content-banner-section.der .tools-img img {
   width: 100%;
@@ -205,6 +208,21 @@ a {
 }
 .content-banner-section.hfha .content-detail h3 {
   color: #FFFFFF;
+}
+.content-banner-section p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transform: rotate(90deg);
+  position: absolute;
+  right: -100px;
+  top: 50%;
+}
+.content-banner-section p img {
+  transform: rotate(-90deg);
+  min-width: 11px;
+  max-width: 11px;
 }
 
 /*-- content-banner style end --*/
@@ -413,6 +431,38 @@ a {
   font-weight: 300;
   line-height: normal;
   letter-spacing: 0.13px;
+}
+.footer-social {
+  margin-top: 150px;
+}
+.footer-social ul {
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.footer-social ul li a {
+  transition: 0.4s;
+}
+.footer-social ul li a:hover {
+  opacity: 0.8;
+}
+.footer-bottom-content {
+  padding: 30px 0px;
+  max-width: 1024px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-bottom-content p, .footer-bottom-content a {
+  color: #333;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.26px;
 }
 
 /*-- Footer-section End --*/
