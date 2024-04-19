@@ -292,4 +292,14 @@
   .mobile-menu-inner {
     width: 100%;
   }
+  .content-banner-section .content-detail {
+    width: 87vw;
+  }
+  .content-banner-section .content-detail .content-btns {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .content-banner-section .content-detail .content-btns button {
+    width: 48%;
+  }
 }
