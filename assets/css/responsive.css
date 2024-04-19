@@ -10,6 +10,13 @@
   .content-banner-section.der .tools-img {
     margin-left: -36%;
   }
+  .content-banner-section.der p {
+    top: auto;
+    bottom: 30%;
+  }
+  .content-banner-section.handwerkzeuge p {
+    top: 25%;
+  }
 }
 @media only screen and (max-width: 991px) {
   .header-center {
@@ -49,6 +56,9 @@
   .content-banner-section .content-detail .content-btns button {
     font-size: 18px;
     padding: 8px 15px;
+  }
+  .content-banner-section.der p {
+    bottom: 40%;
   }
   .content-banner-section p {
     right: -70px;
