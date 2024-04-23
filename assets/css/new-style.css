@@ -1,0 +1,23 @@
+.contact-col a img{
+    max-width: 12px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .content-banner-section.der{
+        padding-top: 60px;
+    }
+    .content-banner-section.handwerkzeuge{
+        padding-top: 0px;
+    }
+    .content-banner-section .tools-img{
+        max-width: 400px !important;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .content-banner-section.handwerkzeuge .tools-img{
+        max-width: 300px !important;
+    }
+}
