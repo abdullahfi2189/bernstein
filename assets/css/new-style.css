@@ -2,6 +2,19 @@
     max-width: 12px;
 }
 
+.zoomable {
+    position: relative;
+    overflow: hidden;
+  }
+  .zoomable__img {
+    transform-origin: var(--zoom-pos-x, 0%) var(--zoom-pos-y, 0%);
+    transition: transform 0.15s linear;
+  }
+  .zoomable--zoomed .zoomable__img {
+    cursor: zoom-in;
+    transform: scale(var(--zoom, 2));
+  }
+
 
 @media only screen and (max-width: 768px) {
     .content-banner-section.der{
