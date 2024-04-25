@@ -40,13 +40,13 @@
         max-width: 400px !important;
         margin: auto;
     }
+    .mt-sm-24{
+        margin-top: 24px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
     .content-banner-section.handwerkzeuge .tools-img{
         max-width: 300px !important;
-    }
-    .mt-sm-24{
-        margin-top: 24px;
     }
 }
